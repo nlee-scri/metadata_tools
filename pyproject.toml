@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "datatools"
+version = "0.1.0"
+description = "tools used to help with data curation for IMPAc-TB"
+authors = ["Lee, Nicholas Jay-Myung <Nicholas.Lee@seattlechildrens.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+imaris-ims-file-reader = "^0.1.8"
+readlif = "^0.6.5"
+biopython = "^1.84"
+pandas = "^2.2.3"
+tqdm = "^4.66.5"
+bs4 = "^0.0.2"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+autoflake = "^2.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
